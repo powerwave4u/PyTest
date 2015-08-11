@@ -53,4 +53,18 @@ print(s)
 
 print()
 print("***********리스트에 튜플이나 리스트가 있을때 반복 참조하기**********")
-
+print()
+print("***************리스트 정렬하기***************************")
+L = [1, 5, 3, 9, 8, 4, 2]
+L.sort()
+print(L)
+L.sort(reverse= True)
+print(L)
+print()
+L = 'Python is a Programming Language'.split()
+print(L)
+L.sort()
+print(L)
+L.sort(key=str.lower)
+L
+print(L)
