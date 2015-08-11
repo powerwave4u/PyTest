@@ -1,5 +1,5 @@
 print()
-print("중첩리스트")
+print("***************중첩리스트**********************")
 s = [1, 2, 3]
 t = ['begin', s, 'end']
 print(t)
@@ -28,3 +28,29 @@ s.sort()  # 반환값이 없다.
 print(s)
 s = [10, 20, 30, 40, 50]
 s.remove(10)
+print(s)
+s.extend([60, 70])
+
+print()
+print("리스트를 스택으로 사용하기")
+s = [10, 20, 30, 40, 50]
+s.append(60)
+print(s)
+s.pop()
+print(s)
+print()
+s.pop(0)
+print(s)
+s.pop(1)
+print(s)
+print()
+print("리스트를 큐로 사용하기")
+s = [10, 20, 30, 40, 50]
+s.append(60)
+print(s)
+s.pop(0)
+print(s)
+
+print()
+print("***********리스트에 튜플이나 리스트가 있을때 반복 참조하기**********")
+
